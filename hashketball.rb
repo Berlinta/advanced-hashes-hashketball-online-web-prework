@@ -141,8 +141,8 @@ def team_colors(team)
   clr_arr[0]
 end
 
-def team_names(team)
-  print team
+def team_names(teams)
+  print teams
 end
 
 
