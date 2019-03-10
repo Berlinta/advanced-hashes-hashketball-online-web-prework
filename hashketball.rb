@@ -137,7 +137,7 @@ end
 
 def team_colors(team)
   clr_arr = []
-  
+  teams.collect 
 end
 
 
