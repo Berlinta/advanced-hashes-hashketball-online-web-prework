@@ -158,7 +158,7 @@ end
 def player_numbers
   jerseynum = []
   teams.each do |squad|
-    
+    if suqad[:team_name]
  
 
 
