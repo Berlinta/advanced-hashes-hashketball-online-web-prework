@@ -14,5 +14,5 @@ def game_hash
 end
 
 def num_points_scored(player)
-  get_player
+  get_player(player)[:points]
 end
