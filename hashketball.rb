@@ -135,7 +135,8 @@ def shoe_size(player)
   get_player(player)[:shoe]
 end
 
-def team_colors
+def team_colors(team)
+  
 end
 
 
