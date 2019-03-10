@@ -157,7 +157,8 @@ end
 
 def player_numbers
   jerseynum = []
-  teams.each do 
+  teams.each do |squad|
+    
  
 
 
