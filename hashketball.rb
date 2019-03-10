@@ -152,7 +152,8 @@ end
   #   end
 
 def team_names
-  teams.collect {|squad| 
+  teams.collect {|squad| squad[:team_name]}
+end
  
 
 
