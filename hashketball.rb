@@ -155,16 +155,15 @@ def team_names
   teams.collect {|squad| squad[:team_name]}
 end
 
-def player_numbers
-  jerseynum = []
+def player_numbers(team_name)
+  squad_name = []
   teams.each do |squad|
-    if squad[:team_name]  == team_name
-      squad[:players].each {|playa| jerseynum << playa[1][:number]}
+    if squad[:team_name] == team_name
+      squad[:players].each {|playa| num_array << playa[1][:number]}
     end
   end
-  jerseynum.sort
+  squad_name.sort
 end
-      
  
 
 
