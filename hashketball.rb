@@ -157,7 +157,7 @@ end
 
 def player_numbers
   jerseynum = []
-  players.collect {|playa| 
+  
  
 
 
