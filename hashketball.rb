@@ -165,8 +165,8 @@ def player_numbers(team_name)
   squad_name.sort
 end
 
-def player_stats(pstats)
-  get_player[:stats]
+def player_stats(player)
+  get_player(player)
 end
  
 
