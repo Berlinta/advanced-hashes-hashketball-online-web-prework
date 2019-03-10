@@ -152,10 +152,7 @@ end
   #   end
 
 def team_names(teams)
-  teams = teams_names
-  teams.each do |name|
-    
-end
+ 
 
 
 
