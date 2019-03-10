@@ -151,7 +151,8 @@ end
   #     end
   #   end
 
-def team_names(teams)
+def team_names
+  teams.collect {
  
 
 
