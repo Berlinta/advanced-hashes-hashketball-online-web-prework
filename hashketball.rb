@@ -159,7 +159,7 @@ def player_numbers(team_name)
   squad_name = []
   teams.each do |squad|
     if squad[:team_name] == team_name
-      squad[:players].each {|playa| num_array << playa[1][:number]}
+      squad[:players].each {|playa| squad_name << playa[1][:number]}
     end
   end
   squad_name
