@@ -162,7 +162,7 @@ def player_numbers
       squad[:players].each {|playa| jerseynum << playa[1][:number]}
     end
   end
-  jerseynum[0]
+  jerseynum
 end
       
  
