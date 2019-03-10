@@ -164,6 +164,9 @@ def player_numbers(team_name)
   end
   squad_name.sort
 end
+
+def player_stats(pstats)
+  
  
 
 
