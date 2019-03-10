@@ -137,7 +137,7 @@ end
 
 def team_colors(team)
   clr_arr = []
-  teams.collect {|squad| clr_arr << squad
+  teams.collect {|squad| clr_arr << squad[:color]
 end
 
 
