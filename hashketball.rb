@@ -136,6 +136,7 @@ def shoe_size(player)
 end
 
 def team_colors(team)
+  clr_arr = []
   
 end
 
