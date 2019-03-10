@@ -152,7 +152,7 @@ end
   #   end
 
 def team_names
-  teams.collect {
+  teams.collect {|squad| 
  
 
 
