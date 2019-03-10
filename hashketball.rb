@@ -159,7 +159,7 @@ def player_numbers
   jerseynum = []
   teams.each do |squad|
     if squad[:team_name]  == team_name
-      squad[:players].each 
+      squad[:players].each {|playa| jerseynum << playa[1]
       
  
 
