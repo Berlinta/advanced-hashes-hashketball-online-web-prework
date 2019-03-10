@@ -170,7 +170,7 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  players.max_by { |shoe, size|
+  players.max_by { |playa, stat| 
  
 
 
