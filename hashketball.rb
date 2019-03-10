@@ -14,7 +14,7 @@ def game_hash
 end
 
 def get_player(player)
-  get_player
+  get_player[player]
 end
 
 def num_points_scored(player)
