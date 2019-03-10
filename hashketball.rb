@@ -162,7 +162,7 @@ def player_numbers(team_name)
       squad[:players].each {|playa| squad_name << playa[1][:number]}
     end
   end
-  squad_name
+  squad_name.sort
 end
  
 
