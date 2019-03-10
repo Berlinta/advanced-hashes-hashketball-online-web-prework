@@ -169,7 +169,7 @@ def player_stats(player)
   get_player(player)
 end
 
-def big_shoe_rebounds(size)
+def big_shoe_rebounds
  
 
 
